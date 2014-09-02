@@ -1,68 +1,27 @@
 service_restart Cookbook
 ========================
-TODO: Enter the cookbook description here.
+This cookbook will help to restart mutiple services with three different way using chef recipe
 
-e.g.
-This cookbook makes your favorite breakfast sandwich.
+1. For loop
+2. bash
+3. execute command
 
 Requirements
 ------------
-TODO: List your cookbook requirements. Be sure to include any requirements this cookbook has on platforms, libraries, other cookbooks, packages, operating systems, etc.
-
-e.g.
-#### packages
-- `toaster` - service_restart needs toaster to brown your bagel.
+Any linux specific services
 
 Attributes
 ----------
-TODO: List your cookbook attributes here.
-
-e.g.
-#### service_restart::default
-<table>
-  <tr>
-    <th>Key</th>
-    <th>Type</th>
-    <th>Description</th>
-    <th>Default</th>
-  </tr>
-  <tr>
-    <td><tt>['service_restart']['bacon']</tt></td>
-    <td>Boolean</td>
-    <td>whether to include bacon</td>
-    <td><tt>true</tt></td>
-  </tr>
-</table>
+None 
 
 Usage
 -----
-#### service_restart::default
-TODO: Write usage instructions for each cookbook.
-
-e.g.
-Just include `service_restart` in your node's `run_list`:
-
-```json
-{
-  "name":"my_node",
-  "run_list": [
-    "recipe[service_restart]"
-  ]
-}
-```
+#### update reciepe with preffered method of your choice
 
 Contributing
 ------------
-TODO: (optional) If this is a public cookbook, detail the process for contributing. If this is a private cookbook, remove this section.
-
-e.g.
-1. Fork the repository on Github
-2. Create a named feature branch (like `add_component_x`)
-3. Write your change
-4. Write tests for your change (if applicable)
-5. Run the tests, ensuring they all pass
-6. Submit a Pull Request using Github
+Feel free to send the pull request if you think you have better ways to do it
 
 License and Authors
 -------------------
-Authors: TODO: List authors
+Authors: rameshshihora@gmail.com
